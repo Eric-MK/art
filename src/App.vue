@@ -14,7 +14,7 @@ const artworks = ref([
     size: 'A3 · 2025',
     price: 8500,
     status: 'Available',
-    image: 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=1000&q=85',
+    image: '/images/art/quiet-strength.jpeg',
     alt: 'Expressive contemporary artwork in a warm gallery setting'
   },
   {
