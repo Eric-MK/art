@@ -8,14 +8,14 @@ const activeFilter = ref('All works')
 const artworks = ref([
   {
     id: 1,
-    title: 'Quiet Strength',
+    title: 'Yello Tape',
     category: 'Portraits',
-    medium: 'Graphite on paper',
-    size: 'A3 · 2025',
+    medium: 'Acrylic on canvas',
+    size: '60 × 85',
     price: 8500,
-    status: 'Available',
-    image: '/images/art/quiet-strength.jpeg',
-    alt: 'Expressive contemporary artwork in a warm gallery setting'
+    status: 'Sold',
+    image: '/images/art/yello-tape.jpeg',
+    alt: 'Yello Tape — acrylic on canvas artwork'
   },
   {
     id: 2,
