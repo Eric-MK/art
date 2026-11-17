@@ -19,14 +19,14 @@ const artworks = ref([
   },
   {
     id: 2,
-    title: 'After the Rain',
+    title: 'False Rose of Jericho',
     category: 'Studies',
-    medium: 'Charcoal study',
-    size: 'A4 · 2025',
-    price: 6200,
+    medium: 'Acrylic on canvas',
+    size: '85 × 55 · 2026',
+    price: 47500,
     status: 'Available',
-    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1000&q=85',
-    alt: 'Framed fine art study'
+    image: '/images/art/false-rose-of-jericho.jpeg',
+    alt: 'False Rose of Jericho — acrylic on canvas artwork'
   },
   {
     id: 3,
