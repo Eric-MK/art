@@ -30,14 +30,14 @@ const artworks = ref([
   },
   {
     id: 3,
-    title: 'The In-Between',
+    title: 'Tearstal',
     category: 'Portraits',
-    medium: 'Graphite and ink',
-    size: 'A3 · 2024',
-    price: 9500,
-    status: 'Sold',
-    image: 'https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=1000&q=85',
-    alt: 'Modern artwork displayed on a gallery wall'
+    medium: 'Acrylic on canvas',
+    size: '60 × 85 · 2026',
+    price: 44000,
+    status: 'Available',
+    image: '/images/art/tearstal.jpeg',
+    alt: 'Tearstal — acrylic on canvas artwork'
   },
   {
     id: 4,
