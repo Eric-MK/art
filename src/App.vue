@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 
 const artistName = 'Your Name'
-const whatsappNumber = '254700000000' // Replace with your WhatsApp number, country code first, no + sign.
+const whatsappNumber = '254742499362'
 const activeFilter = ref('All works')
 
 const artworks = ref([
