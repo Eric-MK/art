@@ -41,14 +41,14 @@ const artworks = ref([
   },
   {
     id: 4,
-    title: 'Soft Geometry',
+    title: '519 y.o',
     category: 'Studies',
-    medium: 'Mixed media on paper',
-    size: 'A4 · 2025',
-    price: 4800,
+    medium: 'Acrylic on canvas, net cutting & buttons',
+    size: '77 × 60 · 2021',
+    price: 37500,
     status: 'Available',
-    image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&w=1000&q=85',
-    alt: 'Abstract artwork with a minimal composition'
+    image: '/images/art/519-y.o.jpeg',
+    alt: '519 y.o — acrylic on canvas with net cutting and buttons artwork'
   },
 ])
 
