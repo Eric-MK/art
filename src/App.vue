@@ -1,8 +1,9 @@
 <script setup>
 import { computed, ref } from 'vue'
 
-const artistName = 'Your Name'
+const artistName = 'Alfonce Kalove'
 const whatsappNumber = '254742499362'
+const contactEmail = 'alfonceklvpro@gmail.com'
 const activeFilter = ref('All works')
 
 const artworks = ref([
@@ -49,6 +50,28 @@ const artworks = ref([
     status: 'Available',
     image: '/images/art/519-y.o.jpeg',
     alt: '519 y.o — acrylic on canvas with net cutting and buttons artwork'
+  },
+  {
+    id: 5,
+    title: 'Pop Collar',
+    category: 'Studies',
+    medium: 'Acrylic on canvas, papier-mâché, cloth, CDs',
+    size: '80 × 60cm',
+    price: 58000,
+    status: 'Available',
+    image: '/images/art/pop-collar.jpeg',
+    alt: 'Pop Collar — acrylic on canvas, papier-mâché, cloth and CDs'
+  },
+  {
+    id: 6,
+    title: 'S.S.S',
+    category: 'Studies',
+    medium: 'Acrylic on woodwork',
+    size: '85 × 70cm · 2020',
+    price: 62000,
+    status: 'Available',
+    image: '/images/art/s-s-s.jpeg',
+    alt: 'S.S.S — acrylic on woodwork, 2020'
   },
 ])
 
@@ -243,8 +266,9 @@ function contactArtist() {
         <span>ATELIER <span class="wordmark-light">NOIRE</span></span>
       </a>
       <p>Original art, made with intention.</p>
-      <div class="footer-right">
-        <a href="#home">BACK TO TOP ↑</a>
+        <div class="footer-right">
+          <a class="footer-email" :href="`mailto:${contactEmail}`">{{ contactEmail }}</a>
+          <a href="#home">BACK TO TOP ↑</a>
         <span>© {{ new Date().getFullYear() }} {{ artistName }}</span>
       </div>
     </footer>
